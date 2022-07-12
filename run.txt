@@ -1,0 +1,36 @@
+npm init
+npm install --save express
+node app.js
+npm install chalk
+npm install debug
+$env:DEBUG='*';node app.js
+$env:DEBUG='app';node app.js
+npm install morgan
+https://getbootstrap.com  =>CDN
+npm install bootstrap jquery
+
+npm install eslint -g
+eslint --init
+npm run lint
+eslint app.js --fix
+
+npm install nodemon
+
+$env:DEBUG='*';npm start
+$env:DEBUG='app';npm start
+
+npm install pug
+npm install ejs
+
+https://www.bootstrapzero.com/
+
+npm install mongodb
+
+$env:DEBUG='app,app:*';npm start
+
+heroku -v
+heroku login
+
+https://git.heroku.com/nodejs-testapp-itworx.git
+
+https://nodejs-testapp-itworx.herokuapp.com/products
