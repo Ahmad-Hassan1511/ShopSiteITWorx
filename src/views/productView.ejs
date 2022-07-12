@@ -51,12 +51,13 @@
                     <div class="col mb-8">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="/assets/images/<%=product.image%>" alt="<%=product.description%>" />
                             <!-- Product details-->
                             <div class="card-body p-8">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder"><%=product.title%></h5>
+                                    <h4 class="fw-bolder"><%=product.name%></h4>
+                                    <h6 class="fw-bolder"><%=product.description%></h6>
                                     <!-- Product price-->
                                     $<%= product.price %>
                                 </div>
