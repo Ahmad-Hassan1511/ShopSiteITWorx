@@ -11,16 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "bootstrap": "^5.1.3",
     "chalk": "4.1.2",
+    "cookie-parser": "^1.4.6",
     "debug": "^4.3.4",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "express-session": "^1.17.3",
     "heroku": "^7.60.2",
     "jquery": "^3.6.0",
     "mongodb": "^4.7.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.18",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
     "pug": "^3.0.2"
   },
   "devDependencies": {
@@ -38,7 +43,11 @@
     "delay": "2500",
     "env": {
       "NODE_ENV": "development",
-      "PORT": 3000
+      "PORT": 3000,
+      "dbUri": "mongodb+srv://shopappuser:P%40ssw0rd12345@shopapp.uvrszml.mongodb.net/?retryWrites=true&w=majority",
+      "dbName": "ShopDB",
+      "productsColName": "Product",
+      "usersColName": "User"
     }
   }
 }

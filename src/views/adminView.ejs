@@ -25,20 +25,10 @@
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="<%=nav[i].link%>"><%=nav[i].title%> </a></li>
                             <% } %>  
                     </ul>
-                    <form class="d-flex" style="display:<%= displayRegister %>">
-                        <a class="btn btn-outline-dark" href="/auth/register">
-                            Sign Up! 
-                        </a>
-                        <a class="btn btn-outline-dark" href="/auth/login">
-                            Sign in! 
-                        </a>
-                    </form>
-                    <div style="display:<%= displayUser %>">
-                        <label class="d-flex">
-                            Welcome <%= username %> 
-                        </label>
-                        <a class="btn btn-outline-dark"  href="/auth/logout" >Logout</a> 
-                    </div>
+                    <label class="d-flex">
+                        Welcome Admin <%= username %> 
+                    </label>
+                    <a class="btn btn-outline-dark"  href="/auth/logout" >Logout</a> 
                 </div>
             </div>
         </nav>
@@ -52,7 +42,8 @@
             </div>
         </header>
         <!-- Section-->
-        <section class="py-5">  
+        <section class="py-5">
+            <h2><a href="/admin/view">View all products</a></h2>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
